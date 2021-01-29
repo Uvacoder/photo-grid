@@ -34,6 +34,7 @@ resources:
   name: Square
   params:
     order: 5
-    description: Some description 4.
+    video_embed_link: https://www.youtube.com/embed/ScAM-XXEeHk
+    description: a video
 
 ---

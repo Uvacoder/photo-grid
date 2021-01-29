@@ -2,6 +2,8 @@
 
 This responsive grid theme provides a beautiful layout to showcase your photograghy and manage your gallery with ease.
 
+2021-01-30: Added embedded video support
+
 ## Distinguishing Features
 
 - Easy photo management
@@ -21,7 +23,7 @@ Photo Grid is based on [Hugird](http://themes.gohugo.io/theme/hugrid/), a respon
 
 ## Screenshot
 
-![Hugrid screenshot](https://github.com/Chen-Zhe/photo-grid/blob/master/images/screenshot.png)
+![Photogrid screenshot](https://github.com/Chen-Zhe/photo-grid/blob/master/images/screenshot.jpg)
 
 
 ## Contents
@@ -64,6 +66,15 @@ EXIF info display can be disabled by setting `no_exif = true` in the config
 All photos are stored in the [`photo`](https://github.com/Chen-Zhe/photo-grid/blob/master/exampleSite/content/photo) folder under the `content` folder. You can put multiple directories under it and the theme will enumerate all photos within in order of the directory listing. Within each subfolder, e.g. [`1-trip1`](https://github.com/Chen-Zhe/photo-grid/blob/master/exampleSite/content/photo/1-trip1), you can put all relevant photos in it and then copy over the `index.md` file.
 
 Within [`index.md`](https://github.com/Chen-Zhe/photo-grid/blob/master/exampleSite/content/photo/1-trip1/index.md) file, you can specify each photo's name, description and other properties. Take a look at the descriptions to understand what can be customized.
+
+#### Video Playback
+
+To add a video, simply put its thumbnail in the same way as a regular photo and
+specify `video_embed_link` (refer to  [`index.md`](https://github.com/Chen-Zhe/photo-grid/blob/master/exampleSite/content/photo/1-trip1/index.md), which should be the URL in the `src` attribute of an embedded iframe provided by
+video-sharing sites such as YouTube.
+
+A video icon will appear on the thumbnail in the gallery view and expanding it will reveal the embedded video
+player.
 
 ### Nearly finished
 
