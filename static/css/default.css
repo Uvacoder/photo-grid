@@ -74,3 +74,7 @@ img.lazy{
 	display: block;
 	height: 250px;
 }
+
+footer {
+	padding: 0.5em;
+}
