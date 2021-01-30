@@ -21,4 +21,6 @@ theme = "photo-grid"
     bodytextcolor = "#f2f2f2"
 
     # Footer text
+    copyright_since_year = 2012
+    copyright_text = "All images"
     footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io), [Pavel](https://themes.gohugo.io/hugrid/) and [me](https://chen-zhe.github.io)."
