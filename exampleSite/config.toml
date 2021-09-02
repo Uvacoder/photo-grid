@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://example.org/"
+baseurl = "https://photo-grid-vert.vercel.app"
 languageCode = "en-us"
 title = "Photo Grid - Grid Gallery For Hugo"
 theme = "photo-grid"
